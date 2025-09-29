@@ -1,0 +1,37 @@
+
+.header{
+    background:linear-gradient(to bottom,#e4f9f5,#a1eafb,#7fdbda);}
+    
+.container {
+    width: 60%;
+    margin: 30px auto;
+background:linear-gradient(to bottom,#fecfef,#ff9a9e,#ff6b81);
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(117, 3, 3, 0.2);
+}
+/* Tampilan berubah ketika layar dibawah 950px */ 
+@media screen and (max-width: 950px) { 
+    .container { 
+        width: auto; 
+        padding: 0 20px; 
+    } 
+} 
+ 
+/* Tampilan berubah ketika layar dibawah 790px */ 
+@media screen and (max-width: 790px) { 
+    .menu-left, 
+    .search, 
+    .welcome-left, 
+    .welcome-right { 
+        float: none; 
+        width: auto; 
+        padding: 0 20px; 
+        text-align: center; 
+    } 
+    .news-item { 
+        float: none; 
+        margin: 10px 0; 
+        width: auto; 
+    } 
+} 
